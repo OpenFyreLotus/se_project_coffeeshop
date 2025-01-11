@@ -162,3 +162,115 @@
     font-size: 20px;
     line-height: 30px;
 }
+
+.reservation {
+    background-color: #d9e7ff;
+    background-image: url(../images/background_reservation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.reservation__title {
+    margin-bottom: 80px;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.reservation__form {
+    margin: 0 auto;
+    max-width: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    margin-bottom: 8px;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form__input {
+    border-radius: 4px;
+    margin-bottom: 32px;
+    padding: 15px 20px;
+    border: 1px solid #838383;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.form__input::placeholder {
+    color: #838383;
+}
+
+.form__button {
+    border-radius: 4px;
+    background-color: #1878dc;
+    transition: transform 0.4s ease-in-out;
+    margin-bottom: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form__button:hover {
+    background-color: #3f96f3;
+}
+
+.form__checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form__checkbox::placeholder {
+    color: #838383;
+}
+
+.form__checkbox + .form__visible-checkbox {
+    border-radius: 2px;
+    background-color: #1878dc;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.form__checkbox:checked + .form__visible-checkbox {
+    background-image: url(../images/check.svg);
+} /* user has checked the checkbox */
+
+.form__label[for="checkbox"] {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    border-bottom: 0;
+}

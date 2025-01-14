@@ -51,6 +51,7 @@
     opacity: 100%;
     transition: opacity 0.5s linear;
     color: #fff;
+    text-decoration: none;
 }
 
 .footer__social-link:hover {

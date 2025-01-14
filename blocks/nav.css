@@ -1,7 +1,6 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 183px;
 }
 
@@ -13,11 +12,9 @@
 }
 
 .nav__links {
-    margin-top: 8px;
     display: flex;
     list-style-type: none;
     padding: 0;
-    align-items: center;
     gap: 20px;
 }
 

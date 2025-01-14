@@ -29,6 +29,7 @@
     justify-content: space-between;
     gap: 16px;
     flex-direction: column;
+    padding: 0;
 }
 
 .footer__list-item {
@@ -41,24 +42,24 @@
     align-items: center;
 }
 
-.footer__list-item a {
-    color: #fff;
-}
-
 .footer__social-icon {
     width: 16px;
     height: 16px;
 }
 
+.footer__social-link {
+    opacity: 100%;
+    transition: opacity 0.5s linear;
+    color: #fff;
+}
+
 .footer__social-link:hover {
-    transition: all 0.5s ease;
+    opacity: 70%;
 }
 
 .footer__copyright {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 20px;
-}
-.footer__copyright {
     color: #fff;
 }

@@ -69,15 +69,15 @@
                 />
 
                 <div class="header__footer">
-                    <p class="header__paragraph">
-                        <span class="header__no-break">Hours:</span>
-                        <span class="header__nobreak"
-                            >Monday - Friday (10:00 - 19:00)</span
-                        >
-                        <span class="header__no-break"
-                            >Saturday - Sunday (11:00 - 18:00)</span
-                        >
-                    </p>
+                    <div>
+                        <p class="header__paragraph">Hours:</p>
+                        <p class="header__paragraph">
+                            Monday - Friday (10:00 - 19:00)
+                        </p>
+                        <p class="header__paragraph">
+                            Saturday - Sunday (11:00 - 18:00)
+                        </p>
+                    </div>
 
                     <p class="header__paragraph">
                         200 Success Avenue, The Town of Triple Peaks
@@ -94,8 +94,8 @@
                         home-brewing convenience:
                     </p>
 
-                    <div class="recipes__videos">
-                        <div>
+                    <ul class="recipes__videos">
+                        <li>
                             <iframe
                                 class="recipes__iframe"
                                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Ma0LV4Sv7bl-IChn"
@@ -110,9 +110,9 @@
                                 <span>Aeropress Recipe</span>
                                 <span>~5 min</span>
                             </p>
-                        </div>
+                        </li>
 
-                        <div>
+                        <li>
                             <iframe
                                 class="recipes__iframe"
                                 src="https://www.youtube.com/embed/st571DYYTR8?si=zRuuyFdXZIZ1R1Y4"
@@ -127,8 +127,8 @@
                                 <span>French Press Recipe</span>
                                 <span>~15 min</span>
                             </p>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </section>
 
                 <section id="reservation-id" class="reservation">
@@ -208,7 +208,7 @@
                     <div class="menu__cards">
                         <div class="card">
                             <h4 class="card__title">Filter</h4>
-                            <ul>
+                            <ul class="card__list">
                                 <li class="card__list-item">
                                     Regular (12 oz)
                                     <span class="card__list-divider"></span>
@@ -243,7 +243,7 @@
 
                         <div class="card">
                             <h4 class="card__title">Espresso</h4>
-                            <ul>
+                            <ul class="card__list">
                                 <li class="card__list-item">
                                     Macchiato
                                     <span class="card__list-divider"></span>
@@ -273,7 +273,7 @@
                         <div class="card">
                             <h4 class="card__title">Baked Goods</h4>
 
-                            <ul>
+                            <ul class="card__list">
                                 <li class="card__list-item">
                                     Almond Croissant
                                     <span class="card__list-divider"></span>
@@ -345,12 +345,11 @@
 
             <footer class="footer">
                 <div class="footer__content">
-                    <div class="footer__logo">
-                        <img
-                            src="images/logo_coffeeshop_light.svg"
-                            alt="Coffee Shop Logo"
-                        />
-                    </div>
+                    <img
+                        class="footer__logo"
+                        src="images/logo_coffeeshop_light.svg"
+                        alt="Coffee Shop Logo"
+                    />
 
                     <div class="footer__column">
                         <h4 class="footer__social-heading">Social Media</h4>
@@ -385,7 +384,7 @@
                     </div>
                 </div>
 
-                <div class="footer__copyright">&copy; Yvette Pascascio</div>
+                <p class="footer__copyright">&copy; Yvette Pascascio</p>
             </footer>
         </div>
     </body>

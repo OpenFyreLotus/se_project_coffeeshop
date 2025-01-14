@@ -2,6 +2,9 @@
     border: none;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    width: 100%;
+    margin: 0;
 }
 
 .form__label {
@@ -44,6 +47,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    border: 0;
 }
 
 .form__button:hover {
@@ -63,17 +67,19 @@
 
 .form__checkbox + .form__visible-checkbox {
     border-radius: 2px;
-    background-color: #1878dc;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
     width: 20px;
     height: 20px;
     display: inline-block;
+    border: 1px solid #838383;
 }
 
 .form__checkbox:checked + .form__visible-checkbox {
     background-image: url(../images/check.svg);
-} /* user has checked the checkbox */
+    background-color: #2f80ed;
+}
 
 .form__label[for="checkbox"] {
     display: flex;

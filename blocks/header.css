@@ -8,6 +8,9 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+    z-index: 1;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .header__title {
@@ -45,6 +48,7 @@
     top: 124px;
     width: 646px;
     height: 568px;
+    z-index: -1;
 }
 
 .header__footer {
@@ -60,8 +64,4 @@
     color: #6f6f6f;
     margin-top: auto;
     align-items: flex-end;
-}
-
-.header__no-break {
-    display: block;
 }

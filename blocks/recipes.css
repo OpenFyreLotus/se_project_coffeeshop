@@ -1,6 +1,6 @@
 .recipes {
     background-color: #0a2750;
-    background-image: url("background_recipes.svg");
+    background-image: url("../images/background_recipes.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,12 +34,14 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    list-style-type: none;
 }
 
 .recipes__iframe {
     margin-bottom: 24px;
     width: 480px;
     height: 273px;
+    border: none;
 }
 
 .recipes__video-caption {
